@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "SaltCalculatorController",
+    "Method": "CalculateSaltAmount",
+    "RelativePath": "api/SaltCalculator/calculate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SaltCalculationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SaltCalculationResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
